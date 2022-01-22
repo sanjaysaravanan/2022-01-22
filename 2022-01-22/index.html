@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Class</title>
+    <link rel="icon" href="download.jpeg" />
+    <link rel="stylesheet" href="style.css" /> 
+    <script src="script.js" >
+    </script>
+    <script>
+      function formSubmit() {
+        alert("Your form is submitted");
+      }
+      // const handleSubmit = (e) => {
+      //   e.preventDefault();
+      //   const inputs = e.target.elements;
+      //   // console.log(inputs);
+      //   // let data = {};
+      //   // for (i = 0; i < inputs.length; i++) {
+      //   //   if (inputs[i].nodeName === "INPUT") {
+      //   //     data[inputs[i].name] = inputs[i].value;
+      //   //   }
+      //   // }
+
+      //   const check1 = document.getElementById("check1"),
+      //     check2 = document.getElementById("check2"),
+      //     check3 = document.getElementById("check3");
+      //   const checkedArr = [check1.checked, check2.checked, check3.checked];
+      //   console.log("Arr", checkedArr);
+      //   if (checkedArr.filter((bool) => bool).length < 2)
+      //     alert("Please select atleast two");
+      //   // console.log(check1.checked);
+      //   // console.log(data);
+      // };
+
+      // const form = document.getElementById("form");
+      // form.addEventListener("submit", handleSubmit);
+    </script>
+  </head>
+  <body>
+
+    <!-- <h1>FDHASHKLH</h1>
+    <b>ddkashkfhad</b>
+    <i>sdfhaksdhk</i> -->
+    <!-- <a href="https://www.google.com" >Click Me</a> -->
+    <!-- <h1 >JS In HTML</h1> -->
+    <!-- <button onclick="handleClick()" >Click Me</button> -->
+
+    <!-- <p style="text-indent: 50px;">
+      THis para one sdafbhkashdkfhaksdhfk hkfhkahsdkhfkfahkhk
+      asdfajsdjkfgasjkdfgkjasgdkjfgaskdfgkasgdfkghaskdfhkasdgbfkgasdkfgka
+      dsafjkaksdgfjkasdkjfgaksfgkasgdfkgaksdfgkasdgfkgasdkgadskfkasd
+    </p>
+
+    <p>
+      THis para twosadfakhdskhakshfkasdkfh ashdkflhklasdhklfhasdk
+    </p> -->
+
+    <!-- <h1>DIV SPAN</h1>
+    <div style="display: inline;">This is first Div</div><div style="display: inline;">This is two Div</div>
+    
+
+    <p>
+      THis para twosadfakhdskhakshfkasdkfh ashdkflhklasdhklfhasdk
+    </p>
+    <p>
+      THis para twosadfakhdskhakshfkasdkfh ashdkflhklasdhklfhasdk
+    </p>
+
+    <div>DKAHSKH</div>
+
+    <span>Span One</span><span>Span Two</span> -->
+
+    <!-- <h1>DIV vs section vs article</h1>
+
+    <div>
+      This is a div
+    </div>
+    
+    <section>
+      This is a section
+    </section>
+
+    <article>
+      This is an article
+    </article> -->
+   
+    <form onsubmit="
+      event.preventDefault();
+      console.log(candidateName.name);
+      console.log(candidateName.value);
+      console.log(candidateName.id);
+      console.log(candidateName.type);
+      alert(`Your Details are Name: ${candidateName.value}, Email: ${email.value}, DOB: ${DOB.value}`)
+      console.log(`Your Details are Name: ${candidateName.value}, Email: ${email.value}, DOB: ${DOB.value}, Car: ${cars.value}`)
+    " id="" >
+      <label for="name">Enter your name: </label>
+      <input type="text" name="candidateName" id="name" />
+      <label for="email">Enter your email: </label>
+      <input type="email" name="email" id="email" required />
+      <label for="DOB" >DOB</label>
+      <input type="date" name="DOB" id="DOB" required />
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <option value="">--</option>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+      <div>
+        <input type="submit" value="Subscribe!">
+        <input type="reset" value="Reset">
+      </div>
+      <button>Submit</button>
+    </form>
+
+    <!-- <form  oninput="ot.value=parseInt(a.value)*parseInt(a.value)" >
+      <label>Square Of</label>
+      <input name="a" id="a" type="number" value="0" /> is 
+      <output name="ot" for="a" ></output>
+    </form> -->
+
+
+  </body>
+</html>
+
+candidateName =  {
+  value: "safda"
+}
